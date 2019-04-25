@@ -15,3 +15,8 @@ function carousel() {
 function contact(){
 	
 }
+var corner=document.getElementById("push");
+
+corner.addEventListener("click", function(){
+  alert("Contact us at: 111-2222-3333\r\n or E-mail us at mightygym@gmail.com");
+});

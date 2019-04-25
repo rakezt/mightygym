@@ -1,6 +1,6 @@
 body{
 	margin:auto 0;
-	background-image: linear-gradient(darkgrey,white);
+	background-image: linear-gradient(white, #02dcf9);
 	font-family:  'Oswald', sans-serif;
 }
 .zone {
@@ -37,7 +37,7 @@ li{
 a{
 	text-transform: uppercase;
     text-decoration: none;
-	color:#fff;
+	color:#02dcf9;
     font-size: 1.2em;
     font-family:  'Oswald', sans-serif;
     cursor: pointer;
@@ -64,13 +64,13 @@ a:hover{
 .mySlides {
 	display:none;
 	height:auto;
-	}
+}
 .main h1{
 	font-family: 'Anton', sans-serif;
    	color: black;
-    text-align: center;
+    text-align: left;
     margin:50px 10px 3px 10px;
-    font-size: 2.2em;
+    font-size: 5em;
  }
 .zone h1{
 	font-family: 'Anton', sans-serif;
@@ -101,21 +101,20 @@ h2{
 	grid-gap: 20px;
 	grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
 }
-.box>img{
+.box img{
 	width:80%;
+	border-radius: 50%;
 }
 
 .box{
 	background-color: black;
 	padding:50px;
 	margin:20px;
-	height:200px;
+	height:250px;
 	cursor: pointer;
 	text-align: center;
 }
-.box:hover {
-    transform:scale(1.5);
-}
+
 footer{
 	background-color: black;
 	text-align: center;
@@ -126,9 +125,10 @@ footer{
 	text-align: center;
 }
 .work img{
+	margin:0 90px 0 0 ;
 	float:right;
-	width:40%;
-	height:40%;
+	width:30%;
+	height:30%;
 }
 .work h3{
 	color:#f21004;
@@ -188,11 +188,6 @@ p{
 	cursor: pointer;
 }
 .column iframe{
-	width: 100%;
+	width: 60%;
 	border:2px solid black;
-}
-.locate img{
-	width:30%;
-	margin:0 50% 0 35%;
-
 }
